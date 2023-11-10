@@ -15,7 +15,7 @@ if (isset($_SESSION["user"])) {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>User Login</h1>
+    <h1>User Log In</h1>
     <div class="container">
         <?php
         if (isset($_POST["login"])) {
